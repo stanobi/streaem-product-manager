@@ -58,7 +58,7 @@ Instructions
             (this will use trigger jib plugin to build docker image locally).
         d. After thats complete, you can start the application by running this command below
             docker run -p 8081:8081 productmanager
-        c. you can visit application via browser 
+        e. you can visit application via browser 
             http://localhost:8081/swagger-ui.html
 
 ```
