@@ -1,9 +1,6 @@
 # Streaem Product Service
 This is an application which helps to manage product data
 
-## Online version
-Application is successfully deploy to heroku and you can visit via https://alticci-sequence.herokuapp.com/swagger-ui.html
-
 ## Content
 View Project Structure description and Instruction.
 
@@ -22,7 +19,7 @@ View Project Structure description and Instruction.
 ├────────── /restclient                             -> contains interface used to consume api
 ├────────── /service                                -> contains classes containing the app business logic
 ├────────── /util                                   -> contains classes containing common operations and values
-├────────── ProductManagerApplication           -> Main Class
+├────────── ProductManagerApplication               -> Main Class
 ├────── /resources
 ├──────── /static
 ├──────── /templates
@@ -31,9 +28,7 @@ View Project Structure description and Instruction.
 ├──── /test                                         -> contains all test classes
 ├── /target                                         -> contains auto generated files
 ├── .gitignore                                      -> contains all files and folder that shouldn't be pushed to git
-├── pom.xml                                         -> file used to manage dependencies 
-├── Dockerfile                                      -> this is used to generate docker image 
-├── settings.xml                                    -> maven .m2 settings xml file used while building a docker image 
+├── pom.xml                                         -> file used to manage dependencies   
 ├── system.properties                               -> heroku config file instructing heroku on the java version to be used. 
 └── README.md                                       -> application structure description and startup/setup guide
     
